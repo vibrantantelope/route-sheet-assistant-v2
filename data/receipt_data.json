@@ -1,0 +1,24 @@
+{
+    "council_number": "456",
+    "effective_date": "2025-01-01",
+    "term": "12 months",
+    "charter_renewal": 1,
+    "local_unit_number": "140",
+    "program": "Venturing",
+    "district_name": "Five Creeks",
+    "district_number": 9,
+    "prices": {
+        "Youth Registration": 0,
+        "Charter Renewal": 1,
+        "Youth SL Subscription": 0,
+        "Youth Transfer": 0,
+        "Adult Registration": 0,
+        "Multiple/Position Change": 0,
+        "Adult Transfer": 0,
+        "Adult SL Subscription": 0,
+        "Youth Exploring": 0,
+        "Adult Exploring": 0,
+        "Program Fee": 0
+    },
+    "expiration_date": "2025-12-31"
+}

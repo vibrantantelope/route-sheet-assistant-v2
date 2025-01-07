@@ -1,0 +1,7 @@
+{
+  "template_path": "assets/RouteSheetTemplateV2.xlsx",
+  "output_directory": "assets/generated",
+  "log_file": "data/app.log",
+  "tesseract_path": "tesseract/Tesseract-OCR/tesseract.exe",
+  "poppler_path": "poppler/poppler-24.08.0/Library/bin"
+}

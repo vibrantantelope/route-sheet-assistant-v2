@@ -1,0 +1,77 @@
+Vision Statement for Route Sheet Automation Assistant
+Project Name: Route Sheet Automation Assistant (RSAA)
+
+Purpose:
+The Route Sheet Automation Assistant is a user-friendly, modular application designed to streamline the manual process of filling out route sheets based on information extracted from receipts. This application combines optical character recognition (OCR), data processing, and Excel automation to provide an efficient and scalable solution for automating repetitive tasks. It empowers users to quickly and accurately generate completed route sheets with minimal manual input, reducing errors and saving time.
+
+Core Functionality
+Receipt Processing:
+
+OCR Integration: Extract key details from receipt images (e.g., program type, registration fees, unit information) using Tesseract OCR.
+Data Parsing: Organize extracted text into structured fields (e.g., JSON format) for consistent processing.
+Error Handling: Identify and flag incomplete or ambiguous data for user confirmation.
+Route Sheet Automation:
+
+Excel Integration: Use OpenPyXL to programmatically populate route sheet templates based on extracted data.
+Dynamic Field Mapping: Accurately map receipt fields (e.g., program fees, unit number, effective date) to corresponding cells in the route sheet.
+Output Management: Save updated route sheets in a specified folder for easy access and record-keeping.
+User Interface:
+
+File Selection: Provide a graphical interface (GUI) for selecting receipt files.
+Data Display: Allow users to review extracted data before updating the route sheet.
+Interactive Control: Enable users to confirm or edit data before committing it to the route sheet.
+Feedback Notifications: Inform users of successful updates or errors in real-time.
+Design Philosophy
+The RSAA is built on three guiding principles:
+
+Modularity:
+
+All major components (OCR, JSON data handling, Excel automation) are modularized for scalability. New features, such as voice input or batch processing, can be easily added without disrupting the core functionality.
+User-Focused:
+
+Designed with simplicity and usability in mind, the application provides a clean interface that guides users through the process with minimal training.
+Users are given control at every step, from reviewing extracted data to confirming updates.
+Scalability:
+
+Built to accommodate various extensions, such as:
+Voice commands for hands-free operation.
+Batch processing of multiple receipts.
+Integration with other automation tools or systems (e.g., emailing completed route sheets, logging updates into a database).
+Future Vision
+The RSAA aims to evolve into a robust, intelligent desktop assistant capable of handling more complex tasks. Future enhancements include:
+
+Voice Input:
+
+Add natural language processing (NLP) to enable users to control the application via voice commands.
+Example: “Process this receipt for Troop 392G and update the route sheet.”
+Batch Processing:
+
+Support for processing multiple receipts in a single operation, generating corresponding route sheets for each.
+Error Resolution:
+
+Train an integrated LLM (e.g., LLaMA 3.2) to identify and suggest fixes for discrepancies in receipt data.
+Data Analytics and Insights:
+
+Aggregate and analyze processed receipts for trend reporting (e.g., registration statistics by unit or program type).
+Cross-Platform Support:
+
+Extend the application to run seamlessly on Windows, macOS, and Linux.
+Technical Components
+Technology Stack:
+
+OCR: Tesseract for text recognition.
+Excel Automation: OpenPyXL for programmatic editing.
+User Interface: Tkinter for GUI development.
+Data Handling: JSON for storing and transferring extracted data.
+Project Structure:
+
+Main Application: Coordinates interaction between modules.
+Receipt Processing Module: Handles OCR and text parsing.
+Route Sheet Module: Automates Excel updates.
+GUI Module: Provides the interface for user interaction.
+User Workflow
+Launch the application.
+Select a receipt image file through the GUI.
+Review the extracted receipt data displayed in the application.
+Confirm the data to update the route sheet.
+The updated route sheet is saved automatically, and the user is notified of completion.

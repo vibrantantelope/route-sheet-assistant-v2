@@ -1,0 +1,7 @@
+__pycache__/  
+/build/  
+/dist/  
+/poppler/  
+/tesseract/  
+/venv/  
+RouteSheetAssistant.spec 
